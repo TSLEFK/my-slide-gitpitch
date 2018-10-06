@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  gitpitch:
+    image: store/gitpitch/desktop:pro
+    volumes:
+      - .:/repo
+    ports:
+      - "9000:9000"
