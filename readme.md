@@ -1,14 +1,26 @@
 [https://gitpitch.com/TSLEFK/my-slide-gitpitch](https://gitpitch.com/TSLEFK/my-slide-gitpitch)
 
-参考サイト
-https://paiza.hatenablog.com/entry/2017/06/22/GitHub%E3%81%A0%E3%81%91%E3%81%A7%E8%B6%85%E9%AB%98%E6%A9%9F%E8%83%BD%E3%81%AA%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E8%B3%87%E6%96%99%E3%81%8C%E4%BD%9C%E3%82%8C%E3%82%8B%E3%80%8CGitPitch%E3%80%8D%E3%81%AE
-
-
-https://gitpitch.com/docs/code-features/fenced-blocks/
-https://github.com/gitpitch/gitpitch/edit/master/PITCHME.md
 
 # GitPitch Desktop
 ~~i couldn't access [http://localhost:9000](http://localhost:9000). I didn't have error message, so i resigned.~~
+
+Only this command. You can see GitPitch.
+> docker-compose up -d
+
+
+... if you have error(store/gitpitch/desktop:pro not found: does not exist or no pull access), plz read the rest.
+
+docker compose has this line.
+```yaml 
+    image: store/gitpitch/desktop:pro
+```
+plz register GitPitch Pro(First month may be free trial).
+Docker Store : [GitPitch Pro](https://store.docker.com/images/gitpitch-pro)  
+
+> docker login
+
+you type your Username and Password.  
+After you'll get "Login Succeeded". Retry compose up.
 
 > docker-compose up -d
 
