@@ -1,17 +1,25 @@
 #テーマの設定
 theme : sky
 
+layout : top-left
+
 #ロゴアイコンの設定
 logo : images/logo.png
+logo-position : bottom-left
+
+theme-override : css/PITCHME.css
 
 #フットノートの設定
-footnote : "© 2017 sample Inc."
+footnote : "skyarch networks."
 
 #スライドのページ数表示の設定
 slide-number: true
 
 #コードのシンタックスハイライトの設定
+# https://highlightjs.org/static/demo/
 highlight : monokai
+
+# code-line-numbers : true
 
 #スライド自動再生の設定
 # autoslide : 5000
@@ -24,3 +32,7 @@ transition : fade
 
 #チャート / グラフ機能の設定
 charts : true
+
+mousewheel : true
+
+# published : true
