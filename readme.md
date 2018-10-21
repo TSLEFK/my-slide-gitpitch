@@ -45,3 +45,6 @@ default   *        virtualbox   Running   tcp://xxx.xxx.xxx.xxx         v18.05.0
 container ssh login
 > docker exec -it test_gitpitch_1 bash
 
+---
+
+[markdown snippet highlight](https://highlightjs.org/static/demo/)
