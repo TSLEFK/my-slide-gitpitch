@@ -144,7 +144,7 @@ Note:
 ~~~python
 {% for hostname in hostnames %} 
 <VirtualHost *:80> 
-  ServerName {{ n.hostname }} 
+  ServerName {{ hostname.hostname }}
   ...
 {% endfor %}
 ~~~
