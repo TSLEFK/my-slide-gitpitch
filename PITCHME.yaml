@@ -5,7 +5,7 @@ layout : top-left
 
 #ロゴアイコンの設定
 logo : images/skyarch-logo.png
-logo-position : bottom-left
+logo-position : top-right
 
 theme-override : css/PITCHME.css
 
