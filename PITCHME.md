@@ -71,9 +71,6 @@ Note:
 * Windows、RHELのライセンス
 * お客様からの要望
 
-* Amazon Data Lifecycle Manager(DLM)
-    * 東京リージョンが2018/8/16
-
 
 Note:
 - コストの削減やライセンス問題、お客様からの要望と
@@ -87,8 +84,8 @@ Note:
     * Python
     * 対象：AMI
 
-* 最近、SLAも
-https://aws.amazon.com/jp/lambda/sla/
+* 最近、SLAも  
+[AWS Lambda Service Level Agreement](https://aws.amazon.com/jp/lambda/sla/)
 
 Note:
 要望や問題の解決
@@ -226,7 +223,7 @@ For文を使っている
 @snapend
 @snapend
 
-@snap[south]
+@snap[south fragment]
 楽のためのプログラム
 @snapend
 
@@ -243,6 +240,7 @@ Note:
 - サーバレスにも挑戦してみて、Devの人間では考えられなかった、アーキテクトで驚きを起こしてください。
 
 +++
+@title[まとめ]
 ### まとめ
 - サーバレスバックアップシステム
 - 開発者でもサービスが簡単に
@@ -254,12 +252,17 @@ Devの人間がIaCやサーバレスのバックアップシステムの作成�
 サーバレスに挑戦してDevの人間では考えられなかった、アーキテクトで驚きを起こしてください、
 
 ↓で表示
+
 ---
+@title[最後に]
+
 @snap[east]
 @size[1.7em](もっとコードを書きませんか？)
 @snapend
+
 ---
-@title[ありがとうございました]
+
+@title[締め]
 @snap[midpoint]
 <h4>ご清聴ありがとうございました</h4>
 @snapend
