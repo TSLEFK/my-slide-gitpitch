@@ -4,7 +4,7 @@ theme : sky
 layout : top-left
 
 #ロゴアイコンの設定
-logo : images/logo.png
+logo : images/skyarch-logo.png
 logo-position : bottom-left
 
 theme-override : css/PITCHME.css
