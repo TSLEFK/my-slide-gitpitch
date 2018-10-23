@@ -47,8 +47,8 @@ Note:
 
 ---
 
-### 社内ツール
-* 社内の総合的な情報を扱う社内システム
+### 関わった社内ツール
+* 社内の総合的な情報を扱う社内システム（多くの時間）
     * 運用で使う情報
     * 顧客情報
 * バックアップシステム（←こっち）
@@ -67,10 +67,10 @@ Note:
     * Rails
     * 対象：EBSスナップショット
 
-* コスト削減
-* Windows、RHELのライセンス
-* お客様からの要望
-
+* 要望
+    * コスト削減
+    * Windows、RHELのライセンス
+    * お客様から
 
 Note:
 - コストの削減やライセンス問題、お客様からの要望と
@@ -83,9 +83,8 @@ Note:
     * Lambda
     * Python
     * 対象：AMI
-
-* 最近、SLAも  
-[AWS Lambda Service Level Agreement](https://aws.amazon.com/jp/lambda/sla/)
+        * 最近(10/9)、SLAも  
+        [AWS Lambda Service Level Agreement](https://aws.amazon.com/jp/lambda/sla/)
 
 Note:
 要望や問題の解決
@@ -123,7 +122,7 @@ Devの人間からサーバレスを見たとき
 * ある程度解放されて、Devから見ると楽に
     * サーバの用意
     * 環境で設定が異なる
-    * 監視
+    * 監視(0ではない)
 @snap[south fragment]
 Opsにとっては？
 @snapend
@@ -132,7 +131,7 @@ Note:
 サーバレスで一気に楽に
 サーバレスはDevにとってはいいが、Opsにとっては？
 まず、サーバレス以前にOpsにとってプログラムって遠く思われてるのかな？
-
+社内的に嫌厭されてる感がいなめない、勝手ながらそう思った
 ---
 
 ### プログラミングを遠く感じる？
@@ -140,7 +139,7 @@ Note:
 @ul
 
 @snap[fragment]
-* ワンライナーのコマンド
+* コマンド
 
 ```Bash
 find ./ -name '*'|xargs grep 'xxx'
@@ -164,7 +163,6 @@ echo ${var}
 
 Note:
 ｜　パイプ
-
 - でも、近いことをやってるはず
 - コマンドや
 - その集合体がShellスクリプト
@@ -228,7 +226,8 @@ For文を使っている
 @snapend
 
 @snap[south fragment]
-楽のためのプログラム
+~~プログラムを書く~~  
+楽するための手段
 @snapend
 
 Note:
@@ -247,8 +246,8 @@ Note:
 ---
 @title[最後に]
 
-@snap[east]
-@size[1.7em](もっとコードを書きませんか？)
+@snap[midpoint]
+@size[1.3em](もっと~~コードを書き~~<br>楽をしませんか？)
 @snapend
 
 ---
