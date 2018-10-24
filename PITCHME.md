@@ -18,7 +18,7 @@ Press "S"
 
 ```Bash
 名前
-    鍛治 拓人(かじ たくと)
+    鍛治 拓人(かじ たくと)  <img src="./images/Telerik.Web.UI.WebResource.png" data-canonical-src="./images/Telerik.Web.UI.WebResource.png" width="50" height="50" />
 所属
     株式会社スカイアーチネットワークス 開発部
 生まれ
@@ -33,10 +33,6 @@ Press "S"
         Lambda
         PHP、Python、Java
 ```
-
-@snap[east]
-<img src="./images/Telerik.Web.UI.WebResource.png" data-canonical-src="./images/Telerik.Web.UI.WebResource.png" width="50" height="50" />
-@snapend
 
 Note:
 - 名前、東京にあるスカイアーチ
