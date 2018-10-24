@@ -34,7 +34,7 @@ Press "S"
         PHP、Python、Java
 ```
 
-@snap[west]
+@snap[east]
 ![](./images/Telerik.Web.UI.WebResource.png)
 @snapend
 
