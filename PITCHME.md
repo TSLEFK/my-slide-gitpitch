@@ -33,6 +33,11 @@ Press "S"
         Lambda
         PHP、Python、Java
 ```
+
+@snap[west]
+@fa()[./images/Telerik.Web.UI.WebResource.png]
+@snapend
+
 Note:
 - 名前、東京にあるスカイアーチ
 - けど、生まれは奈良
