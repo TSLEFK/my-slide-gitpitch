@@ -35,7 +35,7 @@ Press "S"
 ```
 
 @snap[east]
-![](./images/Telerik.Web.UI.WebResource.png | width=100)
+<img src="./images/Telerik.Web.UI.WebResource.png" data-canonical-src="./images/Telerik.Web.UI.WebResource.png" width="50" height="50" />
 @snapend
 
 Note:
