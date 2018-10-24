@@ -35,7 +35,7 @@ Press "S"
 ```
 
 @snap[east]
-![](./images/Telerik.Web.UI.WebResource.png)
+@fa[./images/Telerik.Web.UI.WebResource.png]
 @snapend
 
 Note:
