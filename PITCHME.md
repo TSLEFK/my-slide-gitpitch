@@ -1,11 +1,10 @@
 @title[社内鯖管のためのツールなお話]
 
 @snap[east]
-@size[2em](社内鯖管のための<br>ツールなお話)
+@size[2em](LTのタイトル)
 <br><br>
-@size[1em](鍛治 拓人)  
-@size[0.6em](株式会社スカイアーチネットワークス)  
-@size[0.6em](技術本部 開発部)  
+@size[1em](@taskforce_Hisui)  
+@size[0/5em](https://github.com/TSLEFK)  
 @size[0.4em](2018/10/24)
 @snapend
 
@@ -18,14 +17,14 @@ Press "S"
 
 ```Bash
 名前
-    鍛治 拓人(かじ たくと)
+    @taskforce_Hisui
 所属
-    株式会社スカイアーチネットワークス 開発部
+    鯖管会社
 生まれ
     東大阪　育ち：奈良
 経歴
-    独立系中小SIer企業(1.5年)→スカイアーチ(1.2年)
-    ほぼ開発側
+    独立系中小SIer企業(1.5年)→現職(1.2年)
+    触っているもの
         社内ツールのサポート、機能追加
         Ansible
         CloudFormation
@@ -39,10 +38,9 @@ Press "S"
 @snapend
 
 Note:
-- 名前、東京にあるスカイアーチ
 - けど、生まれは奈良
 
-- 新卒で入ったのは開発会社で1年前にスカイアーチにJoin
+- 新卒で入ったのは開発会社で1年前にJoin
 - Join後も開発のタスクがメイン、リプレース作業も
 - 最近はLambdaでサービスを
 - DevOpsの区切りなら、Dev側
