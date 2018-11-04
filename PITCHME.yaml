@@ -4,13 +4,13 @@ theme : sky
 layout : top-left
 
 #ロゴアイコンの設定
-logo : images/skyarch-logo.png
+logo : images/dq04.jpg
 logo-position : top-right
 
 theme-override : css/PITCHME.css
 
 #フットノートの設定
-footnote : "skyarch networks."
+footnote : "taskforce_Hisui."
 
 #スライドのページ数表示の設定
 slide-number: true
